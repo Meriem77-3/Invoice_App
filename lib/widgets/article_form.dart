@@ -83,8 +83,7 @@ class _ArticleFormState extends State<ArticleForm> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Header with article number
-          Row(
+         Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
@@ -114,7 +113,6 @@ class _ArticleFormState extends State<ArticleForm> {
           
           SizedBox(height: 16),
           
-          // Description
           TextField(
             controller: _descController,
             decoration: InputDecoration(
@@ -132,10 +130,8 @@ class _ArticleFormState extends State<ArticleForm> {
           
           SizedBox(height: 16),
           
-          // Quantity and Price
           Row(
             children: [
-              // Quantity
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -193,8 +189,7 @@ class _ArticleFormState extends State<ArticleForm> {
               
               SizedBox(width: 16),
               
-              // Price
-              Expanded(
+               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -253,7 +248,6 @@ class _ArticleFormState extends State<ArticleForm> {
           
           SizedBox(height: 16),
           
-          // Total
           Container(
             padding: EdgeInsets.all(12),
             decoration: BoxDecoration(

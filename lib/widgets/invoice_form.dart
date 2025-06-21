@@ -87,8 +87,7 @@ class _InvoiceFormState extends State<InvoiceForm> with SingleTickerProviderStat
       ),
       child: Column(
         children: [
-          // TabBar avec style personnalisé
-          Container(
+          /Container(
             decoration: BoxDecoration(
               color: Colors.grey.shade50,
               borderRadius: BorderRadius.only(
@@ -134,7 +133,6 @@ class _InvoiceFormState extends State<InvoiceForm> with SingleTickerProviderStat
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          // Section Informations Client
           _buildSection(
             'Client Information',
             Icons.person,
@@ -161,7 +159,6 @@ class _InvoiceFormState extends State<InvoiceForm> with SingleTickerProviderStat
           
           SizedBox(height: 24),
           
-          // Section Articles
           _buildSection(
             'Articles',
             Icons.inventory_2,
@@ -238,7 +235,6 @@ class _InvoiceFormState extends State<InvoiceForm> with SingleTickerProviderStat
           
           SizedBox(height: 24),
           
-          // Section Totaux
           _buildTotalsSection(),
         ],
       ),

@@ -36,15 +36,8 @@ This mobile app allows you to create, preview, and manage invoices interactively
 
 ## 🖼️ Screenshots
 
-- **Form tab**
-  
+   per at the root of the project named results
 
-
-- **Preview tab**
-  
- 
-
----
 
 ## 🛠️ Technical Details
 

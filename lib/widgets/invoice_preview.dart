@@ -40,7 +40,6 @@ class InvoicePreview extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Header Facture
           Container(
             padding: EdgeInsets.all(20),
             decoration: BoxDecoration(
@@ -79,7 +78,6 @@ class InvoicePreview extends StatelessWidget {
           
           SizedBox(height: 24),
           
-          // Informations Client
           Container(
             padding: EdgeInsets.all(16),
             decoration: BoxDecoration(
@@ -234,7 +232,6 @@ class InvoicePreview extends StatelessWidget {
                   ),
                 ),
           SizedBox(height: 24),
-          // Totaux
           Align(
             alignment: Alignment.centerRight,
             child: Container(

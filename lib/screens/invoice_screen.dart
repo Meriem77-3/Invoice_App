@@ -20,7 +20,6 @@ class InvoiceScreen extends StatelessWidget {
         child: SafeArea(
           child: Column(
             children: [
-              // Header personnalisé avec dégradé
               Container(
                 width: double.infinity,
                 padding: EdgeInsets.all(20),
@@ -67,7 +66,6 @@ class InvoiceScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              // Contenu principal
               Expanded(child: InvoiceForm()),
             ],
           ),
